@@ -517,7 +517,7 @@ console.log(permissions.get(), 'permissionspermissions')
 					<span style={{ color: '#808080' }}>&lt;<span style={{ color: '#ed6a43' }}>script</span>
 						<span style={{ color: '#0086b3' }}> id</span>=<span style={{ color: '#183691' }}>"__webwhizSdk__"</span><span style={{ color: '#0086b3', paddingLeft: '4px' }}> data-chatbot-id</span>=<span style={{ color: '#183691' }}>"{chatBot._id}"</span>
 						<br></br>
-						<span style={{ color: '#0086b3', paddingLeft: '20px' }}> src</span>=<span style={{ color: '#183691' }}>"https://widget.webwhiz.ai/webwhiz-sdk.js"</span>
+						<span style={{ color: '#0086b3', paddingLeft: '20px' }}> src</span>=<span style={{ color: '#183691' }}>"https://chatbot-widget.edesy.in/webwhiz-sdk.js"</span>
 						&gt;</span>
 					<br></br>
 					<span style={{ color: '#808080' }}>&lt;/<span style={{ color: '#ed6a43' }}>script</span>&gt;</span>
@@ -531,7 +531,7 @@ console.log(permissions.get(), 'permissionspermissions')
 						isDisabled={isSubmitting}
 						onClick={() => {
 							navigator.clipboard.writeText(
-								`<script id="__webwhizSdk__" src="https://widget.webwhiz.ai/webwhiz-sdk.js" data-chatbot-id="${chatBot._id}"></script>`
+								`<script id="__webwhizSdk__" src="https://chatbot-widget.edesy.in/webwhiz-sdk.js" data-chatbot-id="${chatBot._id}"></script>`
 							);
 							toast({
 								title: `Copied to Clipboard`,
@@ -553,7 +553,7 @@ console.log(permissions.get(), 'permissionspermissions')
 						<span style={{ color: '#0086b3', paddingLeft: '4px' }}> height</span>=<span style={{ color: '#183691' }}>"700px"</span>
 						<span style={{ color: '#0086b3', paddingLeft: '4px' }}> frameborder</span>=<span style={{ color: '#183691' }}>"0"</span>
 						<br></br>
-						<span style={{ color: '#0086b3', paddingLeft: '20px' }}> src</span>=<span style={{ color: '#183691' }}>"https://widget.webwhiz.ai/?kbId={chatBot._id}&embed=true&hide-chat-actions=true"</span>
+						<span style={{ color: '#0086b3', paddingLeft: '20px' }}> src</span>=<span style={{ color: '#183691' }}>"https://chatbot-widget.edesy.in/?kbId={chatBot._id}&embed=true&hide-chat-actions=true"</span>
 						&gt;</span>
 					<br></br>
 					<span style={{ color: '#808080' }}>&lt;/<span style={{ color: '#ed6a43' }}>iframe</span>&gt;</span>
@@ -568,7 +568,7 @@ console.log(permissions.get(), 'permissionspermissions')
 						onClick={() => {
 							navigator.clipboard.writeText(
 								`<iframe width="500px" height="700px" frameborder="0"
-								src="https://widget.webwhiz.ai/?kbId=${chatBot._id}&embed=true&hide-chat-actions=true">
+								src="https://chatbot-widget.edesy.in/?kbId=${chatBot._id}&embed=true&hide-chat-actions=true">
 								</iframe>`
 							);
 							toast({
@@ -588,7 +588,7 @@ console.log(permissions.get(), 'permissionspermissions')
 					Share the chat interface with anyone with the below unique link.
 				</Text>
 				<Box className={styles.codeBlock}>
-					<span style={{color: '#0086b3'}}>https://widget.webwhiz.ai/?kbId={chatBot._id}&embed=true&hide-chat-actions=true</span>
+					<span style={{color: '#0086b3'}}>https://chatbot-widget.edesy.in/?kbId={chatBot._id}&embed=true&hide-chat-actions=true</span>
 				</Box>
 				<HStack mt="6">
 					<Button
@@ -599,7 +599,7 @@ console.log(permissions.get(), 'permissionspermissions')
 						isDisabled={isSubmitting}
 						onClick={() => {
 							navigator.clipboard.writeText(
-								`https://widget.webwhiz.ai/?kbId=${chatBot._id}&embed=true&hide-chat-actions=true`
+								`https://chatbot-widget.edesy.in/?kbId=${chatBot._id}&embed=true&hide-chat-actions=true`
 							);
 							toast({
 								title: `Copied to Clipboard`,

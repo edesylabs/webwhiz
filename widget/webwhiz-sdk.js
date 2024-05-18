@@ -265,14 +265,14 @@ function __WEBWHIZ__getChatbotId() {
 function __WEBWHIZ__getWidgetURL() {
   const scriptEl = document.getElementById("__webwhizSdk__");
   const baseURL = scriptEl.getAttribute('widgetUrl') || scriptEl.getAttribute('data-widget-url');
-  return baseURL || 'https://widget.webwhiz.ai/';
+  return baseURL || 'https://chatbot-widget.edesy.in/';
 }
 
 function __WEBWHIZ__getBaseURL() {
   const scriptEl = document.getElementById("__webwhizSdk__");
   const baseURL = scriptEl.getAttribute('baseUrl') || scriptEl.getAttribute('data-base-url');
   console.log(baseURL);
-  return baseURL || 'https://api.webwhiz.ai';
+  return baseURL || 'https://chatbot-api.edesy.in';
 }
 
 __WEBWHIZ__ready(() => {
